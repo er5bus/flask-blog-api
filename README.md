@@ -18,7 +18,7 @@ Create a project folder and a venv folder within:
 $ python3 -m venv venv
 ```
 
-# Install Flask
+# Install dependencies
 Now, you will need to set up virtual environment that will keep the application and its dependencies isolated from the main system.
 
 Next run the following command with the name of your temporary virtual environment.
