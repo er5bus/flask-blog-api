@@ -34,11 +34,9 @@ $ pip install -r requirements/dev.txt
 ```
 
 # Usage
-Run this command to run the built-in web server and access the application in your browser at http://localhost:5000:
 
-``` bash
-$ export FLASK_APP=manage.py
-$ export FLASK_DEBUG=1
-$ flask db migrate
-$ flask run
+Run this command to run the built-in web server and access the application in your browser at http://localhost:8000:
+
+```shell
+$ python3 manage.py runserver
 ```
